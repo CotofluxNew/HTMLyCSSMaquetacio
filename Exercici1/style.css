@@ -127,9 +127,15 @@ aside{
     margin: 10px 10px;
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     width: 100%;
     height: auto;
+}
+
+aside>article>div{
+    background-color: yellow;
+    width: 95%;
+    margin: 10px;
 }
 
 
