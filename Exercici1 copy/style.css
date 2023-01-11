@@ -27,19 +27,19 @@ header>#nav1{
 
 #bloque1{
     background-color: lightgreen;
-    width: 320px;
+    width: 20%;
     margin: 10px;
 }
 
 #bloque2{
     background-color: lightgreen;
-    width: 320px;
+    width: 60%;
     margin: 10px;
 }
 
 #bloque3{
     background-color: lightgreen;
-    width: 320px;
+    width: 20%;
     margin: 10px;
 }
 
@@ -158,73 +158,57 @@ footer > div{
     vertical-align: center;
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (min-width: 768px) and (max-width: 999px){
     /*
-    DEL HEADER
-    */ 
-    header{
-    width: 95%;
-    margin-right: auto;
-    margin-left: auto;
-    }
-    header>#nav1{
-    width: 95%;
-    margin-right: auto;
-    margin-left: auto;
-    }
-    #bloque1{
-    width: 33%;
-    }
-    #bloque2{
-    width: 33%;
-    }
-    #bloque3{
-    width: 33%;
-    }
-    header>#nav2{
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    }
-    header>#nav2>#subNav{
-    width: 95%;
-    margin-right: auto;
-    margin-left: auto;
-    }
-        /*
-    DEL MAIN
-    */  
-    main{
-    width: 95%;
-    margin-right: auto;
-    margin-left: auto;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    }
-    section{
-        background-color: yellowgreen;
-    width: 100%;
-    }
-    aside{
-    width: 100%;
-
-    }
-
-    main section>#articuloFin{
-    width: 95%;
-    }
-    
-
-        /*
-    DEL FOOTER
-    */ 
-    footer{
-    width: 95%;
-    margin-right: auto;
-    margin-left: auto;
-    }
-    footer > div{
-    width: 97%;
-    }
+DEL HEADER
+*/ 
+header{
+width: 750px;
 }
+header>#nav1{
+width: 730px;
+}
+#bloque1{
+width: 100%;
+}
+#bloque2{
+width: 100%;
+}
+#bloque3{
+width: 100%;
+}
+header>#nav2{
+width: 730px;
+}
+header>#nav2>#subNav{
+width: 730px;
+}
+
+/*
+DEL MAIN
+*/  
+main{
+width: 750px;
+}
+section{
+width: 562px;
+}
+aside{
+width: 188px;
+}
+
+main section>#articuloFin{
+width: 540px;
+}
+
+    /*
+DEL FOOTER
+*/ 
+footer{
+width: 750px;
+}
+footer > div{
+width: 730px;
+}
+}
+
