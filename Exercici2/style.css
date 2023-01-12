@@ -5,11 +5,12 @@
 	text-decoration: none;
 	border: none;
 	outline: none;
+    box-sizing: border-box;
 }
 
 header{
-    width: 1000px;
-    margin: 50px auto;
+    max-width: 1200px;
+    margin: 20px auto;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -18,7 +19,7 @@ header{
 
 header>#nav1{
     background-color: lightskyblue;
-    width: 980px;
+    width: 1180px;
     margin: 10px;
     display:flex;
     flex-direction: row;
@@ -45,12 +46,13 @@ header>#nav1{
 
 header>#nav2>#subNav{
     background-color: lightcoral;
-    width: 980px;
+    width: 1180px;
     margin-right: 10px;
     margin-left: 10px;
     margin-bottom: 10px;
     display:flex;
 }
+
 
 /*
 TODO EL CONTENIDO DEL MAIN
@@ -58,7 +60,7 @@ TODO EL CONTENIDO DEL MAIN
 
 main{
     background-color: black;
-    width: 1000px;
+    width: 1200px;
     margin: 50px auto;
     display:flex;
     flex-direction: row;
@@ -126,9 +128,15 @@ aside{
     margin: 10px 10px;
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     width: 100%;
     height: auto;
+}
+
+aside>article>div{
+    background-color: yellow;
+    width: 95%;
+    margin: 10px;
 }
 
 
@@ -138,7 +146,7 @@ TODO EL CSS DEL FOOTER
 
 footer{
     background-color: black;
-    width: 1000px;
+    width: 1200px;
     margin: 50px auto;
     display:flex;
     flex-direction: row;
@@ -146,63 +154,67 @@ footer{
 }
 footer > div{
     background-color: aqua;
-    width: 980px;
+    width: 1180px;
     margin: 10px auto;
     vertical-align: center;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1200px){
+    /*
+DEL HEADER
+*/ 
+header{
+width: 95%;
+}
+header>#nav1{
+width: 97%;
+}
+#bloque1{
+width: 20%;
+}
+#bloque2{
+width: 60%;
+}
+#bloque3{
+width: 20%;
+}
+header>#nav2{
+width: 97%;
+}
+header>#nav2>#subNav{
+width: 100%;
+}
 
-@media only screen and (min-width: 768px) and (max-width: 999px){
-            /*
-    DEL HEADER
-    */ 
-    header{
-        width: 750px;
-    }
-    header>#nav1{
-        width: 730px;
-    }
-    #bloque1{
-        width: 100%;
-    }
-    #bloque2{
-        width: 100%;
-    }
-    #bloque3{
-        width: 100%;
-    }
-    header>#nav2{
-        width: 730px;
-    }
-    header>#nav2>#subNav{
-        width: 730px;
-    }
+/*
+DEL MAIN
+*/  
+main{
+width: 95%;
+display: block;
+padding: 5px;
+background-color: yellowgreen;
+}
+section{
+width: 97%;
 
-        /*
-    DEL MAIN
-    */  
-    main{
-        width: 750px;
-    }
-    section{
-        width: 562px;
-    }
-    aside{
-        width: 188px;
-    }
+}
+aside{
+width: 97%;
+}
 
-    main section>#articuloFin{
-        width: 540px;
-    }
+main section>#articuloFin{
+width:97%;
+}
 
-            /*
-    DEL FOOTER
-    */ 
-    footer{
-        width: 750px;
-    }
-    footer > div{
-        width: 730px;
-    }
+
+    /*
+DEL FOOTER
+*/ 
+footer{
+width: 95%;
+}
+footer > div{
+width: 97%;
+}
 }
 
