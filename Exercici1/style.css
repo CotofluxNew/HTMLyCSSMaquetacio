@@ -9,7 +9,7 @@
 
 header{
     max-width: 1200px;
-    margin: 50px auto;
+    margin: 20px auto;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -52,6 +52,12 @@ header>#nav2>#subNav{
     display:flex;
 }
 
+header>#nav2>#subNav>#subNav1{
+    width: 100%;
+    margin: 10px;
+    background-color: lightyellow;
+}
+
 
 /*
 TODO EL CONTENIDO DEL MAIN
@@ -60,75 +66,89 @@ TODO EL CONTENIDO DEL MAIN
 main{
     background-color: black;
     width: 1200px;
-    margin: 50px auto;
+    margin: 20px auto;
     display:flex;
     flex-direction: row;
     justify-content: center;
 }
 
 section{
-    background-color: brown;
-    width: 700px;
+    background-color: blueviolet;
+    width: 70%;
     margin: 10px 10px;
     display:flex;
     flex-direction: column;
     justify-content: center;
 }
 
-main section>#articulos{
+main section>#contenedorArticulos{
     background-color:blue;
-    margin: 10px 10px;
     display:flex;
-    flex-direction: row;
-    justify-content: center;
-}
-main>section>#articulos>#articulo1{
-    Width: 100%;
-    height: auto;
-    display: flex;
     flex-direction: column;
     justify-content: center;
 }
-main>section>#articulos>#articulo1>div{
-    background-color: aqua;
-    margin-right: 5px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+div>#articulos{
+    Width: 100%;
+    height: auto;
+    display: flex;
     flex-direction: row;
+    justify-content: center;
+
+}
+article#articulo1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-main>section>#articulos>#articulo2{
-    Width: 100%;
-    height: auto;
+article#articulo2{ 
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-main>section>#articulos>#articulo2>div{
-    background-color: aqua;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-left: 5px;
-    margin-bottom: 10px;
-    flex-direction: row;
+
+div#art11{
+    background-color: burlywood;
+    width: 97%;
+    height: auto;
+    margin: 10px 10px 0px 10px;
 }
-main section>#articuloFin{
+
+div#art12{
+    background-color: burlywood;
+    width: 97%;
+    height: auto;
+    margin: 10px 0px 0px 10px;
+}
+
+div#art21{
+    background-color: burlywood;
+    width: 95%;
+    height: auto;
+    margin: 10px 0px 0px 10px;
+}
+
+div#art22{
+    background-color: burlywood;
+    width: 95%;
+    height: auto;
+    margin: 10px 0px 0px 10px;
+}
+article#articuloFin{
     background-color: lightblue;
-    width: 680px;
-    margin: 10px 10px;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
+    margin: 10px;
+
 }
 
 aside{
-    background-color: blueviolet;
-    margin: 10px 10px;
+    background-color: lightsalmon;
+    margin: 10px 10px 10px 5px;
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 100%;
+    width: 30%;
     height: auto;
 }
 
@@ -146,7 +166,7 @@ TODO EL CSS DEL FOOTER
 footer{
     background-color: black;
     width: 1200px;
-    margin: 50px auto;
+    margin: 20px auto;
     display:flex;
     flex-direction: row;
     justify-content: center;
