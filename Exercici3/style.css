@@ -5,7 +5,6 @@
 	text-decoration: none;
 	border: none;
 	outline: none;
-    box-sizing: border-box;
 }
 
 header{
@@ -53,6 +52,12 @@ header>#nav2>#subNav{
     display:flex;
 }
 
+header>#nav2>#subNav>#subNav1{
+    width: 100%;
+    margin: 10px;
+    background-color: lightyellow;
+}
+
 
 /*
 TODO EL CONTENIDO DEL MAIN
@@ -61,75 +66,89 @@ TODO EL CONTENIDO DEL MAIN
 main{
     background-color: black;
     width: 1200px;
-    margin: 50px auto;
+    margin: 20px auto;
     display:flex;
     flex-direction: row;
     justify-content: center;
 }
 
 section{
-    background-color: brown;
-    width: 700px;
+    background-color: blueviolet;
+    width: 70%;
     margin: 10px 10px;
     display:flex;
     flex-direction: column;
     justify-content: center;
 }
 
-main section>#articulos{
+main section>#contenedorArticulos{
     background-color:blue;
-    margin: 10px 10px;
     display:flex;
-    flex-direction: row;
-    justify-content: center;
-}
-main>section>#articulos>#articulo1{
-    Width: 100%;
-    height: auto;
-    display: flex;
     flex-direction: column;
     justify-content: center;
 }
-main>section>#articulos>#articulo1>div{
-    background-color: aqua;
-    margin-right: 5px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+div>#articulos{
+    Width: 100%;
+    height: auto;
+    display: flex;
     flex-direction: row;
+    justify-content: center;
+
+}
+article#articulo1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-main>section>#articulos>#articulo2{
-    Width: 100%;
-    height: auto;
+article#articulo2{ 
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-main>section>#articulos>#articulo2>div{
-    background-color: aqua;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-left: 5px;
-    margin-bottom: 10px;
-    flex-direction: row;
+
+div#art11{
+    background-color: burlywood;
+    width: 97%;
+    height: auto;
+    margin: 10px 10px 0px 10px;
 }
-main section>#articuloFin{
+
+div#art12{
+    background-color: burlywood;
+    width: 97%;
+    height: auto;
+    margin: 10px 0px 0px 10px;
+}
+
+div#art21{
+    background-color: burlywood;
+    width: 97%;
+    height: auto;
+    margin: 10px 0px 0px 10px;
+}
+
+div#art22{
+    background-color: burlywood;
+    width: 97%;
+    height: auto;
+    margin: 10px 0px 0px 10px;
+}
+article#articuloFin{
     background-color: lightblue;
-    width: 680px;
-    margin: 10px 10px;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
+    margin: 10px;
+
 }
 
 aside{
-    background-color: blueviolet;
-    margin: 10px 10px;
+    background-color: lightsalmon;
+    margin: 10px 10px 10px 5px;
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 100%;
+    width: 30%;
     height: auto;
 }
 
@@ -147,7 +166,7 @@ TODO EL CSS DEL FOOTER
 footer{
     background-color: black;
     width: 1200px;
-    margin: 50px auto;
+    margin: 20px auto;
     display:flex;
     flex-direction: row;
     justify-content: center;
@@ -158,7 +177,6 @@ footer > div{
     margin: 10px auto;
     vertical-align: center;
 }
-
 @media only screen and (min-width: 768px) and (max-width: 1200px){
     /*
     DEL HEADER
@@ -191,7 +209,7 @@ footer > div{
         main{
         width: 95%;
         display: block;
-        padding: 5px;
+        padding: 5px 0px;
         background-color: yellowgreen;
         }
         section{
@@ -199,10 +217,17 @@ footer > div{
         }
         aside{
         width: 97%;
+        margin-left: 10px;
         }
-
+        aside>article>div{
+            width: 97%;
+        }
         main section>#articuloFin{
         width:97%;
+        }
+
+        article#artículos{
+            margin-left: 3px;
         }
 
         /*
@@ -217,83 +242,95 @@ footer > div{
 }
 
 @media only screen and (max-width: 768px){
-        /*
-    DEL HEADER
-    */ 
-        header{
-        width: 95%;
-        }
-        header>#nav1{
-        width: 95%;
-        display: block;
-        }
-        #bloque1{
-        width: 95%;
-        }
-        #bloque2{
-        width: 95%;
-        }
-        #bloque3{
-        width: 95%;
-        }
-        header>#nav2{
-        width: 95%;
-        }
-        header>#nav2>#subNav{
-        width: 100%;
-        }
-
     /*
-    DEL MAIN
-    */  
-        main{
-        width: 95%;
+DEL HEADER
+*/ 
+    header{
+    width: 95%;
+    }
+    header>#nav1{
+    width: 95%;
+    display: block;
+    }
+    #bloque1{
+    width: 95%;
+    }
+    #bloque2{
+    width: 95%;
+    }
+    #bloque3{
+    width: 95%;
+    }
+    header>#nav2{
+    width: 95%;
+    }
+    header>#nav2>#subNav{
+    width: 100%;
+    }
+
+/*
+DEL MAIN
+*/  
+    main{
+        width: 94%;
         display: block;
-        padding: 10px;
+        padding: 5px;
         background-color: yellowgreen;
-        }
-        section{
-        width: 97%;
-        }
-        main section > #articulos{
+    }
+    div#articulos{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        }
-        #articulo1>div{
-            width: :95%;
-        }    
+    }
 
-        #articulo1 > div {
-            margin-right: 10px;
-        }
-
-        main > section > #articulos > #articulo1 > div{
-            margin-right: 10px;
-        }
-        main > section > #articulos > #articulo2 > div{
-            margin-left: 10px;
-        }
-
-        aside{
+    div#articulos>#articulo1{
+        width: 100%;
+    }
+    div#articulos>#articulo2{
+        width: 100%;
+        margin: 0px 0px 0px 10px;
+    }
+    div#articulos>#articulo1>#art11{
         width: 97%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        }
-        
-        main section>#articuloFin{
-            width: 95%;
-        }
+    }
+    div#articulos>#articulo1>#art12{
+        width: 97%;
+    }    
+    div#articulos>#articulo2>#art21{
+        width: 97%;
+        margin-left: initial;
+    }
+    div#articulos>#articulo2>#art22{
+        width: 97%;
+        margin-left: initial;
+    }
+
+    section{
+    width: 97%;
+    }
+
+    aside{
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-inline: auto;
+    }
+    #artículoAside>div{
+        width: 97%;
+    }
+    main section>#articuloFin{
+        width: 97%;
+    }
+
+/*
+DEL FOOTER
+*/ 
+    footer{
+    width: 95%;
+    }
+    footer > div{
+    width: 95%;
+    }
     
-    /*
-    DEL FOOTER
-    */ 
-        footer{
-        width: 95%;
-        }
-        footer > div{
-        width: 95%;
-        }
-        
 }
