@@ -249,20 +249,23 @@ DEL HEADER
     width: 95%;
     }
     header>#nav1{
-    width: 95%;
+    width: 96%;
     display: block;
     }
     #bloque1{
-    width: 95%;
+    width: 96%;
     }
     #bloque2{
-    width: 95%;
+    width: 96%;
     }
     #bloque3{
-    width: 95%;
+    width: 96%;
+    }
+    div#bloque4{
+        width: fit-content;
     }
     header>#nav2{
-    width: 95%;
+    width: 96%;
     }
     header>#nav2>#subNav{
     width: 100%;
