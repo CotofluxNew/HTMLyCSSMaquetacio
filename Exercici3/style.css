@@ -304,65 +304,98 @@ DEL HEADER
 DEL MAIN
 */  
     main{
-        width: 94%;
-        display: block;
-        padding: 5px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        display:flex;
+        flex-direction: column;
         background-color: yellowgreen;
     }
     div#articulos{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
 
     div#articulos>#articulo1{
-        width: 100%;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+
     }
     div#articulos>#articulo2{
-        width: 100%;
-        margin: 0px 0px 0px 10px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+
     }
     div#articulos>#articulo1>#art11{
-        width: 97%;
+        width: 90%;
+        margin:1.5rem auto;
+        padding: 0.5rem;
+        margin-bottom: 0;
     }
     div#articulos>#articulo1>#art12{
-        width: 97%;
+        width: 90%;
+        margin:1.5rem auto;
+        padding: 0.5rem;
+        margin-bottom: 0;
     }    
     div#articulos>#articulo2>#art21{
-        width: 97%;
-        margin-left: initial;
+        width: 90%;
+        margin:1.5rem auto;
+        padding: 0.5rem;
+        margin-bottom: 0;
     }
     div#articulos>#articulo2>#art22{
-        width: 97%;
-        margin-left: initial;
+        width: 90%;
+        margin:1.5rem auto;
+        padding: 0.5rem;
+        margin-bottom: 0;
     }
 
     section{
-    width: 97%;
+    width: 90%;
+    margin: 1.5rem auto
     }
 
     aside{
-    width: 97%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-inline: auto;
+    margin:1.5rem;
     }
     #artículoAside>div{
-        width: 97%;
+        width: 86%;
+        margin:1.5rem auto;
+        padding: 0.5rem;
     }
-    main section>#articuloFin{
-        width: 97%;
+    article#articuloFin{
+        width: 73%;
+        margin:1.5rem auto;
+        padding: 0.5rem;
     }
 
 /*
 DEL FOOTER
 */ 
     footer{
-    width: 95%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
     }
     footer > div{
-    width: 95%;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding:0.5rem;
     }
     
 }
