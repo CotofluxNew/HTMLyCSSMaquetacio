@@ -177,15 +177,18 @@ footer > div{
     margin: 10px auto;
     vertical-align: center;
 }
-@media only screen and (min-width: 768px) and (max-width: 1200px){
+
+/*Responsive tablas*/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
     /*
     DEL HEADER
     */ 
         header{
-        width: 95%;
+        width: 96%;
         }
         header>#nav1{
-        width: 97%;
+        width: 96%;
         }
         #bloque1{
         width: 20%;
@@ -196,34 +199,36 @@ footer > div{
         #bloque3{
         width: 20%;
         }
-        header>#nav2{
-        width: 97%;
-        }
         header>#nav2>#subNav{
-        width: 100%;
+        width: 96%;
         }
+       
+
 
     /*
     DEL MAIN
     */  
         main{
-        width: 95%;
-        display: block;
-        padding: 5px 0px;
+        width: 96%;
+        margin: 1rem auto;
         background-color: yellowgreen;
+        display: flex;
+        flex-direction: column;
         }
         section{
-        width: 97%;
-        }
+        width: 96%;
+   
+                }
         aside{
-        width: 97%;
-        margin-left: 10px;
+        width: 96%;
+        margin: 1rem auto;
         }
-        aside>article>div{
+        aside>article#artículoAside>div{
             width: 97%;
         }
         main section>#articuloFin{
-        width:97%;
+        width:96%;
+        margin: 1rem auto;
         }
 
         article#artículos{
@@ -234,41 +239,65 @@ footer > div{
     DEL FOOTER
     */ 
         footer{
-        width: 95%;
+        width: 96%;
         }
         footer > div{
-        width: 97%;
+        width: 96%;
         }
 }
+
+/*Responisve mobil*/
 
 @media only screen and (max-width: 768px){
     /*
 DEL HEADER
 */ 
     header{
-    width: 95%;
+    width: 90%;
+    margin: 4rem auto;
+
     }
     header>#nav1{
-    width: 96%;
-    display: block;
+    width: 82%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    display:flex;
+    flex-direction: column;
     }
     #bloque1{
-    width: 96%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem;
+
     }
     #bloque2{
-    width: 96%;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0.5rem;
     }
     #bloque3{
-    width: 96%;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0.5rem;
     }
     div#bloque4{
         width: fit-content;
     }
-    header>#nav2{
-    width: 96%;
-    }
+    
     header>#nav2>#subNav{
-    width: 100%;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 1.5rem;
+        padding:1.5rem;
+    }
+    #bloque4{
+        margin: 0.5rem;
     }
 
 /*
