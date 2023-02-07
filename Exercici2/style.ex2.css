@@ -191,20 +191,36 @@ footer > div{
         margin-left: 5%;
         }
         header>#nav1{
-        width: 96%;
+            width: 94%;
+            margin-top: 3%;
+            margin-right: 3%;
+            margin-left: 3%;
         }
         #bloque1{
         width: 20%;
+        margin: 3%;
         }
         #bloque2{
         width: 60%;
+        margin: 3%;
         }
         #bloque3{
         width: 20%;
+        margin: 3%;
         }
+        div#subNav{
+            width: 94%;
+            padding:3%
+        }
+
         header>#nav2>#subNav{
-        width: 96%;
+            width: 88%;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 3%;
+            margin-bottom: 3%;
         }
+
        
 
 
@@ -224,20 +240,53 @@ footer > div{
             margin-top:3%;
             margin-left:3%;
                 }
+                
         aside{
             width: 94%;
-            margin-top:3%;
+            margin-right:3%;
             margin-left:3%;
     
         }
-        aside>article#artículoAside>div{
-            width: 100%;
-            margin:3%    
+        article#articulo1{
+            margin-top: 3%;
+            margin-bottom: 3%;
+            margin-left: 3%;
         }
-        main section>#articuloFin{
-            width: 100%;
-            margin:3%
-    
+
+        article#articulo2{
+            margin-top: 3%;
+            margin-bottom: 3%;
+            margin-right: 3%;
+        }
+
+        article#articulo1>#art11{
+            margin-bottom: 2%;
+            margin-right: 3%;
+        }
+        article#articulo2>#art21{
+            margin-bottom: 2%;
+            margin-left: 3%;
+        }
+
+        aside>article#artículoAside>div{
+            width: 94%;
+            margin-right:3%;
+            margin-left:3%;
+        }
+        #artAs1{
+            margin-top: 3%;
+
+        }
+
+        #artAs2{
+            margin-bottom: 3%;
+        }
+        article#articuloFin{
+            width: 92%;
+            margin-right:4%;
+            margin-left: 4%;
+            margin-bottom: 3%;
+      
         }
 
 
