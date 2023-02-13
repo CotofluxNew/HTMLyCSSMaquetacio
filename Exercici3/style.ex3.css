@@ -313,12 +313,11 @@ DEL HEADER
 
     }
     header>#nav1{
-    width: 82%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-    padding: 1rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
     display:flex;
     flex-direction: column;
     }
@@ -346,10 +345,11 @@ DEL HEADER
     }
     
     header>#nav2>#subNav{
-        width: 80%;
-        margin: auto;
+        width: 90%;
+        margin-right:5%;
+        margin-left: 5%;
         margin-bottom: 1.5rem;
-        padding:1.5rem;
+        
     }
     #bloque4{
         margin: 0.5rem;
@@ -368,71 +368,85 @@ DEL MAIN
     }
     div#articulos{
         width: 90%;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-top: 4%;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
 
     div#articulos>#articulo1{
-        width: 90%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 4%;
+    }
 
+    div#art11{
+        margin: 0px;
+    }
+    div#art12{
+        margin: 0px;
+    }
+    div#art21{
+        margin: 0px;
+    }
+    div#art22{
+        margin: 0px;
     }
     div#articulos>#articulo2{
-        width: 90%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
 
     }
     div#articulos>#articulo1>#art11{
-        width: 90%;
-        margin:1.5rem auto;
+        width: 100%;
         padding: 0.5rem;
-        margin-bottom: 0;
+        margin-bottom: 4%;
     }
     div#articulos>#articulo1>#art12{
-        width: 90%;
-        margin:1.5rem auto;
+        width: 100%;
         padding: 0.5rem;
         margin-bottom: 0;
     }    
     div#articulos>#articulo2>#art21{
-        width: 90%;
-        margin:1.5rem auto;
+        width: 100%;
         padding: 0.5rem;
-        margin-bottom: 0;
+        margin-bottom: 4%;
     }
     div#articulos>#articulo2>#art22{
-        width: 90%;
-        margin:1.5rem auto;
+        width: 100%;
         padding: 0.5rem;
         margin-bottom: 0;
     }
 
     section{
     width: 90%;
-    margin: 1.5rem auto
+    margin: 5%;
     }
 
     aside{
     width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin:1.5rem;
+
     }
     #artículoAside>div{
-        width: 86%;
-        margin:1.5rem auto;
-        padding: 0.5rem;
+        width: 92%;
+        margin:4%;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
     article#articuloFin{
-        width: 73%;
-        margin:1.5rem auto;
+        width: 90%;
         padding: 0.5rem;
+        margin: 4%;
     }
 
 /*
@@ -445,7 +459,7 @@ DEL FOOTER
 
     }
     footer > div{
-    width: 85%;
+    width: 87%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1.5rem;
