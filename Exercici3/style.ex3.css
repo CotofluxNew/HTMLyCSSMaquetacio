@@ -310,14 +310,12 @@ DEL HEADER
     header{
     width: 90%;
     margin: 4rem auto;
-
     }
     header>#nav1{
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    
-
+    margin-top: 5%;
     display:flex;
     flex-direction: column;
     }
@@ -341,19 +339,21 @@ DEL HEADER
         margin-bottom: 4%;
         padding: 0.5rem;
     }
-    div#bloque4{
-        width: fit-content;
-    }
-    
-    header>#nav2>#subNav{
-        width: 90%;
-        margin-right:5%;
-        margin-left: 5%;
-        margin-bottom: 1.5rem;
-        
-    }
     #bloque4{
         margin: 0.5rem;
+    }
+
+    div#subNav{
+        width: 90%;
+        padding:3%
+    }
+
+    header>#nav2>#subNav{
+        width: 84%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 3%;
+        margin-bottom: 3%;
     }
 /*
 DEL MAIN
