@@ -377,9 +377,9 @@ DEL MAIN
     }
 
     div#articulos>#articulo1{
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
+        width: 99%;
+        /* margin-left: auto; */
+        /* margin-right: auto; */
         margin-bottom: 4%;
     }
 
@@ -396,9 +396,9 @@ DEL MAIN
         margin: 0px;
     }
     div#articulos>#articulo2{
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
+        width: 99%;
+        /* margin-left: auto;
+        margin-right: auto; */
 
     }
     div#articulos>#articulo1>#art11{
@@ -444,7 +444,7 @@ DEL MAIN
         padding-bottom: 5px;
     }
     article#articuloFin{
-        width: 90%;
+        width: 89%;
         padding: 0.5rem;
         margin: 4%;
     }
