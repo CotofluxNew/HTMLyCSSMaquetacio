@@ -238,13 +238,13 @@ footer > div{
             width: 94%;
             margin-top:3%;
             margin-left:3%;
-                }
+        }
                 
         aside{
             width: 94%;
             margin-right:3%;
             margin-left:3%;
-    
+            margin-bottom: 3%;
         }
         article#articulo1{
             margin-top: 3%;
@@ -263,7 +263,7 @@ footer > div{
             margin-right: 2%;
         }
         article#articulo2>#art21{
-            margin-bottom: 3%;
+            margin-bottom: 4%;
             margin-left: 3%;
         }
 
@@ -284,10 +284,9 @@ footer > div{
             width: 93%;
             margin-right:4%;
             margin-left: 3%;
-            margin-bottom: 3%;
+            margin-bottom: 4%;
       
         }
-
 
         /*
     DEL FOOTER
@@ -303,6 +302,7 @@ footer > div{
         }
 }
 
+
 @media only screen and (max-width: 768px){
     /*
 DEL HEADER
@@ -316,17 +316,17 @@ DEL HEADER
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    
+
     display:flex;
     flex-direction: column;
     }
     #bloque1{
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0.5rem;
-
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0.5rem;
+        margin-top: 4%;
     }
     #bloque2{
         width: 90%;
@@ -338,6 +338,7 @@ DEL HEADER
         width: 90%;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 4%;
         padding: 0.5rem;
     }
     div#bloque4{
@@ -354,7 +355,6 @@ DEL HEADER
     #bloque4{
         margin: 0.5rem;
     }
-
 /*
 DEL MAIN
 */  
